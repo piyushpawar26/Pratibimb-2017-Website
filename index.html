@@ -1,0 +1,852 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pratibimb</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/infinite-slider.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">	
+</head>	
+
+<body>
+
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<h3>Pratibimb<br>2k17</h3>
+	</div>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top hidden">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a href="#main_bg" class="slideToPage"><img src="img/prati_web_logo.png" width="60" height="60"></a>
+			</div>
+			<div class="collapse navbar-collapse container" id="nav">
+				<div id="headers">
+					<ul>
+						<li><a href="#about" class="slideToPage">About Us</a></li>
+						<li><a href="#events" class="slideToPage">Events</a></li>
+						<li><a href="#initiatives" class="slideToPage">Initiatives</a></li>
+						<li><a href="sponsors/index.html">Sponsors</a></li> 
+						<li><a href="#contact" class="slideToPage">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div id="main_bg" class="hidden">
+		<div class="container-fluid">
+			<h2>LIGHTS, CAMERA, ACTION!</h2>
+			<p> Pratibimb, just like modern cinema has reached it's own destination, created it's own history and has touched it's very own milestones.</p>
+			<section id="section10" class="demo">
+				<a href="#about" class="slideToPage"><span></span>Scroll</a>
+			</section>
+		</div>
+	</div>
+
+	<div id="prati_image" class="hidden">
+		<div class="container">
+			<img src="img/prati_name.jpg" class="img-circle" width="80%" height="80%">
+		</div>
+	</div>
+
+	<div id="about" class="hidden">
+		<div class="container">
+			<div class="col-sm-8">
+				<h2>About</h2>
+				<p>Pratibimb is the annual national level cultural festival of VJTI. Spread over three days, this mega fest consist of inter and intra college competitions with awards catching the eye of many. Events like street dance, fashion show, flash mob, musical nights have their own appeal and glamour. Of these events, Mumbai's got talent leads the rest. Countless efforts have been put to create cognizance about social and environmental issues through the channel of social drives like Raddi collection, Khushi, cleanliness and tree plantation drives.</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="img/prati_web_phone.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div id="theme" class="hidden">
+		<div class="container text-center">
+			<h2>Theme</h2>
+			<p>Pratibimb - The paradigm of youth culture that captivates and binds a humongous
+				crowd at once, is here once again to mesmerize and enchant all the hearts and
+				minds!
+				The Eagle is reborn and has risen in full splendor to be back with the grandeur to set
+				our very own cultural extravaganza on fire! Rising by degrees for the past 3 decades,
+				our megafest has enthralled young minds and now aims at taking the 2k17 edition of
+				Pratibimb to the zenith of success.</p>
+
+			<p>The 30th version of the festival will unfold in December. Pratibimb'17 is ready
+			to take you on an amusing ride through its theme: Take 30 - Lights Camera
+			Action .Take 30 signifies that this year we’re 30 years old and we’re celebrating
+		30 years of glory. Join us for the memorable drive!</p>
+		</div>
+	</div>
+
+	<div id="events" class="hidden">
+		<div class="container">
+			<h2>Events</h2>
+		</div>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-sm-4 main-container">
+					<div class="image-container">
+						<img class="image" src="img/singing.jpg">
+						<div class="image-overlay">
+							<div class="text texthide">
+								<h1 onclick="events_modal('classical_solo_singing')">Sound of Music(Classical)</h1>
+								<h1 onclick="events_modal('western_solo_singing')">Sound of Music(Western)</h1>
+								<h1 onclick="events_modal('rap_wars')">Rap wars</h1>
+								<h1 onclick="events_modal('beat_boxing')">Beat Boxing</h1>
+								<h1 onclick="events_modal('symphony')">Symphony</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 main-container">
+					<div class="image-container">
+						<img class="image" src="img/dance.jpg">
+						<div class="image-overlay">
+							<div class="text texthide">
+								<h1 onclick="events_modal('solo_dancing')">Footloose</h1>
+								<h1 onclick="events_modal('duet_dancing')">Pas de Duex</h1>
+								<h1 onclick="events_modal('group_dancing')">Step Up</h1>
+								<h1 onclick="events_modal('monoacting')">Box Office</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 main-container">
+					<div class="image-container">
+						<img class="image" src="img/image8.jpg">
+						<div class="image-overlay">
+							<div class="text texthide">
+								<h1 onclick="events_modal('band_wars')">Whiplash </h1>
+								<h1 onclick="events_modal('standup')">Mr/Ms Funny bones</h1>
+								<h1 onclick="events_modal('fresh_face')">Freshface</h1>
+								<h1 onclick="events_modal('got_talent')">Mumbai's Got Talent</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row">
+				<div class="col-sm-4 main-container">
+					<div class="image-container">
+						<img class="image" src="img/singing.jpg">
+						<div class="image-overlay">
+							<div class="text texthide">
+								<h1 onclick="events_modal('abt')">Classical Solo Singing</h1>
+								<h1 onclick="events_modal('abd')">Western Solo Singing</h1>
+								<h1 onclick="events_modal('event')">Rap Wars</h1>
+								<h1 onclick="events_modal('event')">Beat Boxing</h1>
+								<h1 onclick="events_modal('event')">Symphony</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 main-container">
+					<div class="image-container">
+						<img class="image" src="img/dance.jpg">
+						<div class="image-overlay">
+							<div class="text texthide">
+								<h1 onclick="events_modal('event')">Solo Dancing</h1>
+								<h1 onclick="events_modal('event')">Duet Dancing</h1>
+								<h1 onclick="events_modal('event')">Group Dancing</h1>
+								<h1 onclick="events_modal('event')">Monoacting</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 main-container">
+					<div class="image-container">
+						<img class="image" src="img/image8.jpg">
+						<div class="image-overlay">
+							<div class="text texthide">
+								<h1>Band Wars</h1>
+								<h1>Stand Up Comedy</h1>
+								<h1>Freshface</h1>
+								<h1>Mumbai's Got Talent</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+	<div id="initiatives" class="hidden">
+		<div class="container">
+			<h2>Initiatives</h2>
+			<h3>They always say time changes things, but you actually have to change them yourself.</h3>
+			<div id="drive">
+				<div class="social shadow">
+					<img src="img/social/social1.jpg">
+					<h3>Tree Plantation</h3>
+				</div>
+				<div class="social shadow">
+					<img src="img/social/social2.jpg">
+					<h3>Raddi Collection</h3>
+				</div>
+				<div class="social shadow">
+					<img src="img/social/social3.jpg">
+					<h3>Awaaz</h3>
+				</div>
+				<div class="social shadow">
+					<img src="img/social/social4.jpg">
+					<h3>Get-Set-Clean</h3>
+				</div>
+				<div class="social shadow">
+					<img src="img/social/social5.jpg">
+					<h3>Udaan</h3>
+				</div>
+				<div class="social shadow">
+					<img src="img/social/social6.jpg">
+					<h3>Railway Station Painting</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="sponsors" class="hidden">
+		<div class="container-fluid">
+			<h2>Sponsors</h2>
+			<div id="slide_frame">
+				<div class="container-fluid">
+	                <section class="customer-logos slider">
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons1.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons2.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons3.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons4.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons5.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons6.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons7.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons8.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons9.png"></div>
+	                    <div class="slide text-center"><img src="img/Prati_spons/spons10.png"></div>
+	                </section>
+	            </div>
+	            <div class="container-fluid">
+	                <section class="customer-logos slider">
+	                    <div class="slide"><img src="img/Prati_spons/spons11.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons12.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons13.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons14.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons15.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons16.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons17.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons18.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons19.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons20.png"></div>
+	                </section>
+	            </div>
+	            <div class="container-fluid">
+	                <section class="customer-logos slider">
+	                    <div class="slide"><img src="img/Prati_spons/spons21.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons22.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons23.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons24.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons25.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons26.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons27.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons28.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons29.png"></div>
+	                    <div class="slide"><img src="img/Prati_spons/spons30.png"></div>
+	                </section>
+	            </div>
+			</div>
+		</div>
+	</div> -->
+
+	<div id="vjti_map" class="hidden">
+		<div class="container-fluid text-center">
+			<div class="col-sm-4">
+				<div id="vjti_info">
+					<h2>VISIT US</h2>
+					<h3>Veermata Jijabai Technological Institute</h3>
+					<p>H R Mahajani Marg, Matunga, Mumbai, Maharashtra 400031</p>
+				</div>
+			</div>
+			<div class="col-sm-8">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact" class="hidden">
+		<div class="container">
+			<h2>Contact</h2>
+			<div class="contact_person">
+				<!-- <img src="img/image1.jpg"> -->
+				<h3>Manognya Wunnava</h3>
+				<h5>(Marketing)</h5>
+				<h4>+91-7506045377</h4>
+			</div>
+			<div class="contact_person">
+				<!-- <img src="img/image1.jpg"> -->
+				<h3>Krishna Rathi</h3>
+				<h5>(Sponsorship)</h5>
+				<h4>+91-7219420290</h4>
+			</div>
+			<!-- <div class="contact_person">
+				<img src="img/image1.jpg">
+				<h3>Nisarg Tole</h3>
+				<h4>+91-8080672612</h4>
+			</div> -->
+		</div>
+	</div>
+
+	<footer class="hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <span class="copyright">Copyright &copy; Pratibimb 2017</span>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/PratibimbVJTI?s=17"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/pratibimbvjti/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/pratibimbvjti/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/user/PratibimbVJTI"><i class="fa fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	<div class='m_wrap'>
+		<div class='m_content hidden' id="standup">
+			<div class="col-sm-6">
+				<img src="img/events/stand_up.jpg" width="95%">
+				<h2 class="events_title">Stand Up Comedy</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Shibani Pradhan: +91-9699264788</h4>
+					<h4>Prachi Bhangle: +91-9969078909</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='http://bit.ly/MrAndMissFunnyBone';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">We give all the young comedians out there a platform to tickle the audience with the best of your comics kills. Be the reson for all the giggles and laughs around, and be the best of all.</p>
+				<h2 class="rules_head">Rules:</h2>
+				<div class="rules">
+					<ul>
+						<li>It is an individual competition.</li>
+						<li>Limited entries based on first come first serve basis.</li>
+						<li>Time limit is 8-10 Minutes</li>
+						<li>Participants will be judged on the basis of content, fluency, spontaneity, presentationand sense of humor.</li>
+						<li>No participant can point out any individual or religion in anyway, and any dual meaning obscene content is strictly not allowed.</li>
+						<li>Negative marking for exceeding time limit.</li>
+						<li>Decision of the judges will be final and binding.</li>
+						<li>Content can be English or Hindi both.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('standup')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="duet_dancing">
+			<div class="col-sm-6">
+				<img src="img/events/duet_dance.jpg" width="95%">
+				<h2 class="events_title">Duet Dancing</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Shibani Pradhan: +91-9699264788</h4>
+					<h4>Prachi Bhangle: +91-9969078909</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='http://bit.ly/PasDeDuex';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Two is the best company. Choose the most compatible partner, and deliver a power pack performance with the best chemistry.</p>
+				<h2 class="rules_head">Rules:</h2>
+				<div class="rules">
+					<ul>
+						<li>This is not a COUPLE DANCE.</li>
+						<li>Time limit is 2-4 minutes. Negative points for exceeding the time limit.</li>
+						<li>The participants are requested to bring their music tracks to avoid technical disturbance. Also they are also requested to submit their music  track with the coordinator of the event 2 days before.</li>
+						<li>No particular theme has to be followed. The participants are free to mold the dance form.</li>
+						<li>Get your own props that must be informed to the coordinators prior the competition.</li>
+						<li>Lighting of matchsticks, candles and cigarettes or any derogatory acts are strictly not allowed on stage.</li>
+						<li>The participants will be judged on their costumes, compatibility, visual presentation and dance form.</li>
+						<li>Decision of the judges will be final and binding.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('duet_dancing')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="group_dancing">
+			<div class="col-sm-6">
+				<img src="img/events/group_dance.jpg" width="95%">
+				<h2 class="events_title">Group Dancing</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Nidhi Sura: +91-9324191385</h4>
+					<h4>Swapnal Suryawanshi: +91-9769865206</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='https://goo.gl/forms/GRzStvdBOfViyLQB2';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">DANCE FIRST. THINK LATER. IT'S THE NATURAL ORDER. BE ORIGINAL AND SET THE DANCE FLOOR ON FIRE.  Show us what you've got by registering here to participate in PRATIBIMB , VJTI , one of the top cultural fests! Showcase your dancing skills in the form of group dance where you will be challenging groups from different parts of the city!Don't miss out to it for this maybe a major boost to your talent.</p>
+				<h2 class="rules_head">Rules:</h2>
+				<div class="rules">
+					<ul>
+						<li>Concept of dance should not be based on any political leaders or political issues.</li>
+						<li>Vulgarity with respect to dance and song should be avoided.</li>
+						<li>No flag showing in the performance.</li>
+						<li>Costume should be below knee length or else stocking should be worn compulsorily.</li>
+						<li>Participant should be present 1hr before the event starts.</li>
+						<li>Judgment would be based on choreography, costume, dance skills, sharpness of the movement, stage presence, creativity.</li>
+						<li>Number of members 8-16</li>
+						<li>Time limit of performance is Max 5min</li>
+						<li>‎Participants must be from a college, and 16+ years of age, and must possess a valid college ID card.</li>
+						<li>‎Decision of the judges is final.</li>
+						<li>‎Deposit money of ₹200 is required which will be refunded on the day of the event. .</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('group_dancing')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="solo_dancing">
+			<div class="col-sm-6">
+				<img src="img/events/solo dance.jpg" width="95%">
+				<h2 class="events_title">Solo Dancing</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Nidhi Dubay: +91-9757009940</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='https://goo.gl/forms/x4JF6OUBeuQt3G2n1';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">If you are waiting for the moment you can show your crazy cool swag moves, register yourself now for the ultimate platform presented by PRATIBIMB VJTI, of the biggest cultural fest in Maharashtra. <br>Get your feet dancing on beats, be it desi or swag. We want it Savage. </p>
+				<h2 class="rules_head">Rules:</h2>
+				<div class="rules">
+					<ul>
+						<li>Time limit is 2-4 minutes. Negative points for exceeding the time limit.</li>
+						<li>No flag showing during the performance.</li>
+						<li>No vulgarity of any form during the performance.</li>
+						<li>Minimum knee length costume allowed. Or else stocking compulsory.</li>
+						<li>The participants are requested to bring their music tracks to avoid technical disturbance. Also theyare also requested to submit their music track with the coordinator of the event 2 days before.</li>
+						<li>Get your own props that must be informed to the coordinators prior the competition.</li>
+						<li>Lighting of matchsticks, candles and cigarettes or any derogatory acts are strictly not allowed on stage.</li>
+						<li>The participants will be judged on their costumes, compatibility, visual presentation and dance form.</li>
+						<li>Decision of the judges will be final and binding</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('solo_dancing')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="band_wars">
+			<div class="col-sm-6">
+				<img src="img/events/Band2.jpg" width="95%">
+				<h2 class="events_title">Band Wars</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Abhishek Patne: +91-8082376070</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLScEv0wOWXuQlCY31aslTbcroHiRz6SON0_kfho4vIbFM_ek_g/viewform?usp=sf_link';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Get ready to be a part of the ultimate band clash!<br>If you've got a squad that can make the world groove on your beats, hop in to see whats in store.</p>
+				<h2 class="rules_head">Rules:</h2>
+				<div class="rules">
+					<ul>
+						<li>Team size: 3-8 members.</li>
+						<li>Atleast 1 Vocalist and 3 Instruments required.</li>
+						<li>Each participant is alloted 10 minutes of performance time.</li>
+						<li>These is no restrictions on the language of vocals.</li>
+						<li>The time limit should strictly be followed. Participants will be penalized by judges for not doing so.</li>
+						<li>Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualification.</li>
+						<li>Participants are not required to play an original composition.</li>
+						<li>The decision of the judges shall be final and binding.</li>
+						<li>Participants should be present 1 hour before performance starts.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('band_wars')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="classical_solo_singing">
+			<div class="col-sm-6">
+				<img src="img/events/Classical Solo.jpg" width="95%">
+				<h2 class="events_title">Classical Solo Singing</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Vinit Jodhani: +91-8237811311</h4>
+					<h4>Poornima Patel: +91-9619585727</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='http://rx.hu/RWaw';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Time to hit the sweet spot of your throat's strings. The wait is over. Pratibimb VJTI brings out to you the opportunity to showcase your singing skills in the form of classical solo singing competition. Don't miss out to it for this maybe a major boost to your talent.</p>
+				<h2 class="rules_head">Round 1: Eliminations</h2>
+				<div class="rules">
+					<ul>
+						<li>Maximum time limit is 3 minutes.</li>
+						<li>Background track should be submitted one hour prior to the event.</li>
+					</ul>
+				</div>
+				<h2 class="rules_head">Round 2:  Final Showdown</h2>
+				<div class="rules">
+					<ul>
+						<li>Maximum time limit is 4 minutes.</li>
+						<li>Background track should be submitted one hour prior to the event.</li>
+						<li>Crossing of time limit will result in deduction of marks.</li>
+						<li>Decision of the judge will be final. No arguments will be entertained. </li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('classical_solo_singing')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="beat_boxing">
+			<div class="col-sm-6">
+				<img src="img/events/beat_boxing.jpg" width="95%">
+				<h2 class="events_title">Beat Boxing</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Shruti Pardikar: +91-8793203312</h4>
+					<h4>Chaitanya Rane: +91-7219704446</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='http://bit.ly/2A6ezMM';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Bring out your inner beat,melody,voice and rhythm from within yourself.Recreate this vibrant form of vocal percussion by producing drumbeats and stimulation of other musical instruments with your voice.Take this so called '5th element of hip hop' to a whole new level through the enjoyable natural buzz of making music with your voice alone.Be prepared to make some noise!!!</p>
+				<h2 class="rules_head">Rules: </h2>
+				<div class="rules">
+					<ul>
+						<li>Performance shouldn't exceed 3 minutes. Crossing the time limit will result in deduction of points.</li>
+						<li>‎Participants must be from a college, and 16+ years of age, and must possess a valid college ID card.</li>
+						<li>‎Decision of the judges is final.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('beat_boxing')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="fresh_face">
+			<div class="col-sm-6">
+				<img src="img/events/fresh_face.jpg" width="95%">
+				<h2 class="events_title">Fresh Face</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Riya Shah: +91-8080570802</h4>
+					<h4>Anjali Waghela: +91-9167234620</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='https://goo.gl/forms/2tVxwVPTZWwfKuOA2';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Shake things up at Pratibimb by showcasing your talent and bringing out that X-Factor in you! After sailing through a couple of rounds designed to challenge your mettle in front of a lively audience, the contestants with the most charismatic personality will win the titles of Mr and Ms Pratibimb!</p>
+				<h2 class="rules_head">Rules:</h2>
+				<div class="rules">
+					<ul>
+						<li>Talent round - Participants will be allowed to showcase their talents. Maximum time limit is 3 minutes.</li>
+						<li>Question answer round - There should be no vulgarity with respect to the answers.</li>
+						<li>The decision of the judges shall be final & binding.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('fresh_face')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="symphony">
+			<div class="col-sm-6">
+				<img src="img/events/Symphony.jpg" width="95%">
+				<h2 class="events_title">Symphony</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Nidhi Sura: +91-9324191385</h4>
+					<h4>Swapnal Suryawanshi: +91-9769865206</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='https://goo.gl/forms/HMcn3FvPTLILIaH22';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Where words fail, music speaks<br>This December, Pratibimb VJTI gives you the chance to express your inner self though your musical instruments! Calling all the budding Beethovens and Rahmans of today for the Symphony Competition,<br>This is your chance to shine!</p>
+				<h2 class="rules_head">Rules:</h2>
+				<div class="rules">
+					<ul>
+						<li>Praticipate must bring their own instruments.</li>
+						<li>Performance shouldn't exceed 7 minutes (including setup time). Crossing the time limit will result in deduction of points.</li>
+						<li>Participants must be from a college, and 16+ years of age, and must possess a valid college ID card.</li>
+						<li>‎Decision of the judges is final.</li>
+						<li>Deposit money of ₹200 is required which will be refunded on the day of the event.</li>
+						<li>Only solo performers are permitted.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('symphony')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="monoacting">
+			<div class="col-sm-6">
+				<img src="img/events/mono_acting.jpg" width="95%">
+				<h2 class="events_title">Monoacting</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Anjali Waghela: +91-9167234620</h4>
+					<h4>Riya Shah: +91-8080570802</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='https://goo.gl/forms/duh4YUcXHcwdlHpF2';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Entertainment!<br>Entertainment!!<br>Entertainment!!!<br>Everyone's an entertainer and if you think you're the finest,<br>Come put your best a.k.a melodramatic foot forward in Pratibimb's Dramebaaz.<br>Take on monoacting/mimicry and ham it up!</p>
+				<h2 class="rules_head">Rules: </h2>
+				<div class="rules">
+					<ul>
+						<li>The background music to be played should be given before the event starts.</li>
+						<li>Maximum performance time would be 7 mins.</li>
+						<li>No vulgar or swear words to be used.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('monoacting')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="got_talent">
+			<div class="col-sm-6">
+				<img src="img/image8.jpg" width="95%">
+				<h2 class="events_title">Mumbai's Got Talent</h2>
+				<h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4>
+				<div class="event_contacts">
+					<h4>Shraddha Singh: +91-9833502247</h4>
+					<h4>Shraddha Datta: +91-9004726554</h4>
+				</div>
+				<!-- <button class="custom_button_reg" onclick="location.href='http://google.com';">Register</button> -->
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">It's a city that gives birth to stars and stars always shine wherever they go. So come and sparkle on our stage with that talent you house! Show everyone that a new star is born;come and participate in mumbai's got talent!</p>
+				<h2 class="rules_head">Rules: </h2>
+				<div class="rules">
+					<ul>
+						<li>Maximum performance time would be 10 mins.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('got_talent')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="rap_wars">
+			<div class="col-sm-6">
+				<img src="img/events/Rap wars.jpg" width="95%">
+				<h2 class="events_title">Rap Wars</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Vinit Jodhani: +91-8369654659</h4>
+					<h4>Poornima: +91-9619585727</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='http://rx.hu/Ai7y';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">Love it when raps set a phenomenal pace to the songs? Love it when goosebumps strike while listening up to eminem?<br>Its time to heat up the stage by rapping it out amongst various talents all over the city!<br>Pratibimb VJTI brings out to you one of the very famous Rap wars where participants set the stage on fire by showcasing their rapping skills.</p>
+				<h2 class="rules_head">Rules: </h2>
+				<div class="rules">
+					<ul>
+						<li>Maximum performance time would be 4 mins.</li>
+						<li>Only Hindi and English raps are allowed.</li>
+						<li>Background track should be submitted one day prior to the event.</li>
+						<li>Crossing of time limit will result in deduction off marks.</li>
+						<li>Decision of judges will be final. No arguments will be entertained.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('rap_wars')">close</button>
+			</div>
+		</div>
+
+		<div class='m_content hidden' id="western_solo_singing">
+			<div class="col-sm-6">
+				<img src="img/events/Western solo singing.jpg" width="95%">
+				<h2 class="events_title">Western Solo Singing</h2>
+				<!-- <h4 class="events_time">5PM On 25<sup>th</sup> December, 2017 @ Quad</h4> -->
+				<div class="event_contacts">
+					<h4>Shruti Pardikar: +91-87932 03312</h4>
+					<h4>Chaitanya Rane: +91-7219704446</h4>
+				</div>
+				<button class="custom_button_reg" onclick="location.href='http://bit.ly/2hTnTJb';">Register</button>
+			</div>
+			<div class="vl"></div>
+			<div class="col-sm-6">
+				<p class="events_desc">In this world full of DJs and EDMs, filled with the deafening sounds...<br>Do you have that sweet, but charming voice, that can make everyone fall in love with you??<br>We Here, At PRATIBIMB, The Cultural Lookout of VJTI, is up to the task of finding those who are the talented, and those who are gifted in WESTERN SOLO SINGING.<br>To become a part of this sweet competition, Register down Here !</p>
+				<h2 class="rules_head">Rules: </h2>
+				<div class="rules">
+					<ul>
+						<li>Performance shouldn't exceed 4 minutes. Crossing the time limit will result in deduction of points.</li>
+						<li>‎Participants must be from a college, and 16+ years of age, and must possess a valid college ID card.</li>
+						<li>Decision of the judges is final.</li>
+						<li>Only solo performers are permitted.</li>
+						<li>Decision of judges will be final. No arguments will be entertained.</li>
+					</ul>
+				</div>
+				<button class="custom_button_close" onclick="close_modal('western_solo_singing')">close</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+	<script type="text/javascript">
+
+		var map;
+		function initMap() {
+			var myLatLng = {lat: 19.022375, lng: 72.856121};
+
+			map = new google.maps.Map(document.getElementById('map'), {
+				center: myLatLng,
+				zoom: 17
+			});
+			var marker = new google.maps.Marker({
+				position: myLatLng,
+				map: map,
+				title: 'VJTI'
+  			});
+		}
+
+		$(window).on('load', function(){
+			$('#loader-wrapper').addClass('hidden');
+			$("#main_bg").removeClass("hidden");
+			$("nav").removeClass("hidden");
+			$("footer").removeClass("hidden");
+			$("#prati_image").removeClass("hidden");
+			$("#about").removeClass("hidden");
+			$("#theme").removeClass("hidden");
+			$("#events").removeClass("hidden");
+			$("#initiatives").removeClass("hidden");
+			$("#sponsors").removeClass("hidden");
+			$("#vjti_map").removeClass("hidden");
+			$("#contact").removeClass("hidden");
+		});
+		
+		var fadeStart=175 ,fadeUntil=400,fading = $('#main_bg .container-fluid');
+
+	    $(window).bind('scroll', function(){
+	    	var offset = $(document).scrollTop(), opacity=0;
+	    	if( offset<=fadeStart ){
+	    		opacity=0.8;
+	    	}else if( offset<=fadeUntil ){
+	    		opacity=1-offset/fadeUntil;
+	    	}
+	    	fading.css('opacity',opacity);
+	    	
+	    	var y = $(this).scrollTop();
+            if (y >= 0 && y < 600) {
+                $('#prati_image').addClass('animated fadeInUp');
+            } else if(y >= 600 && y < 1200) {
+                $('#about').addClass('animated fadeInUp');
+            } else if(y >= 1200 && y < 1800) {
+                $('#theme').addClass('animated fadeInUp');
+            } else if(y >= 1800 && y < 2400) {
+                $('#events').addClass('animated fadeInUp');
+            } else if(y >= 2400 && y < 3000) {
+                $('#initiatives').addClass('animated fadeInUp');
+            }
+	    });
+
+	    $(document).on('click','.navbar-collapse.in',function(e) {
+		    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+		        $(this).collapse('hide');
+		    }
+		});
+
+	    $('.slideToPage').click(function(e){
+			var linkHref = $(this).attr('href');
+			$('html, body').animate({
+				scrollTop: $(linkHref).offset().top-80
+			},1000);
+			e.preventDefault();
+		});
+
+		function events_modal(m) {
+			$('#' + m).removeClass('hidden');
+			$('.m_wrap').toggleClass('active');
+			$("html").addClass("modal-open");
+		}
+
+		function close_modal(m) {
+			$('#' + m).addClass('hidden');
+			$('.m_wrap').toggleClass('active');
+			$("html").removeClass("modal-open");
+		}
+
+		$(function() {
+			$('.image-overlay').hover(function() { 
+			    $(this).parent().children('.image').addClass("darken");
+			    $(this).children('.text').removeClass("texthide");	
+			    $(this).children('.text').addClass("textshow");
+			});
+		});
+
+		$(function() {
+			$('.image-overlay').mouseleave(function() { 
+			    $(this).parent().children('.image').removeClass("darken"); 
+			    $(this).children('.text').stop();
+			    $(this).children('.text').addClass("texthide");
+			    $(this).children('.text').removeClass("textshow");
+			});
+
+		});
+
+		$(window).ready(function(){
+			$('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 5,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToScroll: 4,
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToScroll: 2,
+                        slidesToShow: 2
+                    }
+                }]
+            });
+		});
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwi_0YpZju1wSm_obDHSiJTbJ7xDItKRM&callback=initMap" async defer>
+	</script>
+
+</body>
+
+</html>
